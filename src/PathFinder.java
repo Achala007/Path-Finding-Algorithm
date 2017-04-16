@@ -19,7 +19,13 @@ public class PathFinder {
         //It displays the stating and ending points
        show(randomMatrix, true);
 
-        //Taking the input from the
+        //Taking the input from the user for starting and ending points
+        Scanner in = new Scanner(System.in);
+        
+        System.out.println("Enter x1 for A > ");
+        int Aj = in.nextInt();
+        
+        System.out.println("Enter y1 for A > ");
         int Ai = in.nextInt();
         
         System.out.println("Enter x2 for B > ");
