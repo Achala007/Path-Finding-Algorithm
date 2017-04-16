@@ -38,7 +38,9 @@ public class PathFinder {
         Stopwatch timerFlow = new Stopwatch();
 
         //ArrayList<Node> path1 = new PathFinder().distance(randomMatrix, Ai, Aj, Bi, Bj, Manhattan(), "Manhattan",true);
-        //System.out.printl(randomMatrix, Ai, Aj, Bi, Bj, Chebyshev(), "Chebyshev",false);
+        //System.out.println(timerFlow.elapsedTime());
+        //ArrayList<Node> path2 = new PathFinder().distance(randomMatrix, Ai, Aj, Bi, Bj, Euclidean(), "Euclidean", false);
+        ArrayList<Node> path3 = new PathFinder().distance(randomMatrix, Ai, Aj, Bi, Bj, Chebyshev(), "Chebyshev",false);
 
        show(randomMatrix, true, Ai, Aj, Bi, Bj, path3);
 
