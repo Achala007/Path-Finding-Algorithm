@@ -35,7 +35,7 @@ public class PathFinder {
         int Bi = in.nextInt();
 
         // Start the clock ticking in order to capture the time being spent on inputting the coordinates
-        Stopwatch timerFlow = new Stopwatch();
+        Stopwatch timerFlow = new St
 
         //ArrayList<Node> path1 = new PathFinder().distance(randomMatrix, Ai, Aj, Bi, Bj, Manhattan(), "Manhattan",true);
         //System.out.println(timerFlow.elapsedTime());
