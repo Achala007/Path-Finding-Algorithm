@@ -42,8 +42,7 @@ public class PathFinder {
         //ArrayList<Node> path2 = new PathFinder().distance(randomMatrix, Ai, Aj, Bi, Bj, Euclidean(), "Euclidean", false);
         ArrayList<Node> path3 = new PathFinder().distance(randomMatrix, Ai, Aj, Bi, Bj, Chebyshev(), "Chebyshev",false);
 
-       show(randomMatrix, true, Ai, Aj, Bi, Bj, path3);
-
+       show(randomMatrix, true, Ai, Aj, Bi, B
 
     }
 
