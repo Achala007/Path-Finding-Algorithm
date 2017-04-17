@@ -49,7 +49,8 @@ public class PathFinder {
 
 
     Node start;
-    Node e
+    Node end;
+    Node[][] grid;
 
     // Horizontal and Vertical Distance
     double hAndVDistance = 1.0;
