@@ -57,7 +57,10 @@ public class PathFinder {
 
     // Diagonal Distances
     //Manhattan values
-    //Here the dia
+    //Here the diagonal distance is 2
+    public static double Manhattan() {
+
+        double dDistance = 2;
         return dDistance;
     }
 
