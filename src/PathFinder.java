@@ -28,8 +28,7 @@ public class PathFinder {
         System.out.println("Enter y1 for A > ");
         int Ai = in.nextInt();
         
-        System.out.println("Enter x2 for B > ");
-        int Bj = in.nextInt();
+        System.out.println("E
 
         System.out.println("Enter y2 for B > ");
         int Bi = in.nextInt();
