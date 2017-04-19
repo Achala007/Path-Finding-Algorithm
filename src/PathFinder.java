@@ -79,12 +79,7 @@ public class PathFinder {
     }
 
     /**
-     * @param matrix The boolean matrix from the framework given
-     * @param starti     start x value
-     * @param startj     start y value
-     * @param endi     end x value
-     * @param endj     end x value
-     * @return The path nodes
+     * @p
      */
     ArrayList<Node> distance(boolean[][] matrix, int starti, int startj, int endi, int endj, double dDistance, String name, boolean isManhat) {
 
