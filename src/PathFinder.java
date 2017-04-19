@@ -90,7 +90,11 @@ public class PathFinder {
 
         int size = matrix.length;
 
-        ize][size];
+        start = new Node(starti, startj);
+        end = new Node(endi, endj);
+
+        // The grid that is used to store nodes
+        grid = new Node[size][size];
 
         // Creating nodes and finding blocked cells in matrix and mapping accordingly to our grid
         for (int i = 0; i < size; ++i) {
