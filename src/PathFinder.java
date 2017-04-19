@@ -66,7 +66,7 @@ public class PathFinder {
 
     //Euclidean values.
     //Here the diagonal distance is 1.4
-    public static double Euclidean() {
+    public static doubn() {
         double dDistance = 1.4;
         return dDistance;
     }
