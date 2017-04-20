@@ -112,7 +112,10 @@ public class PathFinder {
         start.distance = 0;
 
         // a comparator object to operate with Priority Queue
-        
+        Comparator<Node> adjacencyComparator = (left, right) -> {
+            if (left.distance > (right.distance)) {
+                return 1;
+
             }
             return -1;
         };
