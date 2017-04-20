@@ -98,7 +98,9 @@ public class PathFinder {
 
         // Creating nodes and finding blocked cells in matrix and mapping accordingly to our grid
         for (int i = 0; i < size; ++i) {
-            for (int j = 0; j < 
+            for (int j = 0; j < size; ++j) {
+                grid[i][j] = new Node(i, j);
+                if (matrix[i][j] == false) {
                     grid[i][j].blocked = true;
 
                 }
