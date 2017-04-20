@@ -127,7 +127,13 @@ public class PathFinder {
         PriorityQueue.add(start);
 
         //Checks the adjacent nodes and operates the test node
-        whi
+        while (PriorityQueue .size() > 0) {
+            Node current = PriorityQueue .remove();
+            //test node is to save the adjacent cells temporarily
+            Node testNode;
+            //breaks the loop when the end node becomes the current node
+            if(current.x==end.x && current.y==end.y){
+                break;
             }
             if(!isManhat){
             //checking Top Left Node
