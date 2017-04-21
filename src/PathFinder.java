@@ -164,7 +164,8 @@ public class PathFinder {
             //checking Top Right Node
             if (current.x - 1 >= 0 && current.y + 1 < size) {
                 testNode = grid[current.x - 1][current.y + 1];
-                double newDistance = current.distance tance > newDistance) {
+                double newDistance = current.distance + dDistance;
+                if (!testNode.blocked && !testNode.visited && testNode.distance > newDistance) {
                     testNode.distance = newDistance;
                     testNode.parent = current;
                     PriorityQueue.add(testNode);
