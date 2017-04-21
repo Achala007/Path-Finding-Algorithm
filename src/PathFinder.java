@@ -140,7 +140,20 @@ public class PathFinder {
             if (current.x - 1 >= 0 && current.y - 1 >= 0) {
                 testNode = grid[current.x - 1][current.y - 1];
                 double newDistance = current.distance + dDistance;
-            e = newDistance;
+                if (!testNode.blocked && !testNode.visited && testNode.distance > newDistance) {
+                    testNode.distance = newDistance;
+                    testNode.parent = current;
+                    PriorityQueue.add(testNode);
+                }
+            }}
+
+
+            //Checking Top Node
+            if (current.x - 1 >= 0) {
+                testNode = grid[current.x - 1][current.y];
+                double newDistance = current.distance + hAndVDistance;
+                if (!testNode.blocked && !testNode.visited && testNode.distance > newDistance) {
+                    testNode.distance = newDistance;
                     testNode.parent = current;
                     PriorityQueue.add(testNode);
                 }
